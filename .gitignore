@@ -1,0 +1,26 @@
+# Packet captures may contain credentials, cookies, and personal data
+*.pcap
+*.pcapng
+*.cap
+
+# Sensitive exports and key material
+*.key
+*.pem
+*.p12
+*.pfx
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python/cache files (if used for analysis)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
